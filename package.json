@@ -1,0 +1,37 @@
+{
+    "name": "encrypt-file",
+    "version": "1.2.0",
+    "description": "Encrypt files nodejs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/midyan/encrypt-file.git"
+    },
+    "author": "Yan Nunes",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/midyan/encrypt-file/issues"
+    },
+    "bin": {
+        "encrypt-file": "./index.js"
+    },
+    "devDependencies": {
+        "ava": "^0.25.0",
+        "babel-eslint": "^8.2.3",
+        "babel-polyfill": "^6.26.0",
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-config-standard": "^11.0.0",
+        "eslint-plugin-import": "^2.11.0",
+        "eslint-plugin-node": "^6.0.1",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-promise": "^3.7.0",
+        "eslint-plugin-standard": "^3.1.0",
+        "prettier": "^1.11.1",
+        "prettier-eslint": "^8.8.1"
+    },
+    "homepage": "https://github.com/midyan/encrypt-file#readme"
+}
