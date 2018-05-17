@@ -8,7 +8,7 @@ const [
     password,
 ] = process.argv
 
-process.on('unhandledrejection', event => {
+process.on('unhandledRejection', event => {
     console.log('SOMETHING WENT WRONG', event)
     process.exit(0)
 })
