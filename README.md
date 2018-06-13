@@ -15,7 +15,7 @@ Then use the cli.
 You need to provide the relative path to the file you want to encrypt and the password to encrypt with.
 
 ```sh
-encrypt-file ../test.txt 123456
+encrypt-file enc ../test.txt 123456
 ```
 
 The output file will be written in the directory you have run the command with a trailing `.enc`
@@ -25,7 +25,7 @@ The output file will be written in the directory you have run the command with a
 You need to provide the relative path to the encrypted file and the password
 
 ```sh
-encrypt-file ../test.txt.enc 123456
+encrypt-file dec ../test.txt.enc 123456
 ```
 
 The output file will be written in the directory you have run the command without the trailing `.enc`
